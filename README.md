@@ -8,7 +8,7 @@ Make sure you have Vagrant installed.
 3. `vagrant up`
 4. `vagrant ssh`
 5. `cd vagrant`
-6. 1. `git clone https://github.com/d0coat01/logs-analysis-project/`
+6. `git clone https://github.com/d0coat01/logs-analysis-project/`
 7. `cd logs-analysis-project`
 3. download [SQL data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) to your vagrant directory (this dir is shared with Vagrant VM)
 4. `psql -d news -f newsdata.sql`
@@ -17,7 +17,7 @@ Make sure you have Vagrant installed.
 
 ## Code Navigation
 
-- Reports.py - Contains a Reports class and prints out the report.
+- Reports.py - Contains a Reports class and prints out a report.
 - views.sql - Creates three views called article_log, daily_errors, and daily_requests. These are all views based off of the log table exclusively, so they update automatically when log is edited.
 
 
